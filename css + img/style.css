@@ -2,30 +2,48 @@
 
 section{
 	width: 100%;
-    height: auto;
-    position: static;
+    height: auto; 
 }
 
 #div-sobrenos{
-	margin: 20px;
-	width: 1000;
-	text-align: center;
+	width: 100%;
+    text-align: center;
+    background-color: #151515;
 }
 
-#sobrenos-h3{
-	font-weight: bold;
-}
+
 
 #sobrenos-span{
-	width: 600px;
+    width: 600px;
 	margin-left: 330px;
-	white-space: pre-wrap;
+    white-space: pre-wrap;
+    color: #ffffff;
 }
 
-/* .hoteis-div{
-	width: 300px;
-	margin: 20px;
-	border-style: solid;
-	border-radius: 16px;
-	text-align: center;
-} */
+#img-logo{
+    margin-top: 28px;
+    margin-left: 30px;
+}
+
+img{
+    width: 301px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
+}
+
+.personagem{
+    width: 307px;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 16px;
+    text-align: center;
+    position: sticky;
+    background-color: #ffffff;
+    font-weight: bolder
+}
+
+#video{
+    
+}
