@@ -1,2 +1,2 @@
-# api-pokemon
- Consumindo uma API de pokemon
+# api-marvel
+ Consumindo uma API da Marvel
