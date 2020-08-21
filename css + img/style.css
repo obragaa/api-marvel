@@ -1,0 +1,31 @@
+/* Conteúdo da página */
+
+section{
+	width: 100%;
+    height: auto;
+    position: static;
+}
+
+#div-sobrenos{
+	margin: 20px;
+	width: 1000;
+	text-align: center;
+}
+
+#sobrenos-h3{
+	font-weight: bold;
+}
+
+#sobrenos-span{
+	width: 600px;
+	margin-left: 330px;
+	white-space: pre-wrap;
+}
+
+/* .hoteis-div{
+	width: 300px;
+	margin: 20px;
+	border-style: solid;
+	border-radius: 16px;
+	text-align: center;
+} */
