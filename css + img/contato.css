@@ -1,0 +1,83 @@
+#sobre{
+    text-align: center;
+}
+#sobre_felipe{
+    background: #ffffff; 
+    border-radius: 6px; 
+    padding: 15px;
+    cursor: pointer; 
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #c5c5c5;
+}
+
+#sobre_luiz{
+    background:  #ffffff;
+     border-radius: 6px; 
+     padding: 15px; 
+     cursor: pointer; 
+     font-size: 20px; 
+     margin-left: 15%; 
+     margin-right: 15%;
+     margin-bottom: 10px;
+     box-shadow: 3px 3px #c5c5c5;
+}
+
+#sobre_luan{    
+    background: #ffffff;
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #c5c5c5;
+}
+#sobre_vicenti{
+    background:  #ffffff;
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #c5c5c5;
+}
+#sobre_juan{
+    background:  #ffffff;
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #c5c5c5;
+}
+
+#sobre_caio{
+    background:  #ffffff;
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-bottom: 75px;
+    box-shadow: 3px 3px #c5c5c5;
+}
+.painelLogin{
+    width: 30%;
+    margin: auto;
+}
+.nomes{
+    width: 30%;
+    margin: auto;
+}
+.body_test{
+    background-color: red;
+}
