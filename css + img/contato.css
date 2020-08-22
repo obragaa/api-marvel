@@ -15,7 +15,7 @@
     position: static;
 }
 #sobre_felipe{
-    background: #ffffff; 
+    background: #e7e0f3; 
     border-radius: 6px; 
     padding: 15px;
     cursor: pointer; 
@@ -23,12 +23,12 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 10px;
-    box-shadow: 3px 3px #c5c5c5;
+    box-shadow: 3px 3px #aba2b9;
     position: static;
 }
 
 #sobre_luiz{
-    background:  #ffffff;
+    background:  #e7e0f3;
      border-radius: 6px; 
      padding: 15px; 
      cursor: pointer; 
@@ -36,12 +36,12 @@
      margin-left: 15%; 
      margin-right: 15%;
      margin-bottom: 10px;
-     box-shadow: 3px 3px #c5c5c5;
+     box-shadow: 3px 3px #aba2b9;
      position: static;
 }
 
 #sobre_luan{    
-    background: #ffffff;
+    background: #e7e0f3;
     border-radius: 6px; 
     padding: 15px; 
     cursor: pointer; 
@@ -49,11 +49,11 @@
     margin-left: 15%; 
     margin-right: 15%;
     margin-bottom: 10px;
-    box-shadow: 3px 3px #c5c5c5;
+    box-shadow: 3px 3px #aba2b9;
     position: static;
 }
 #sobre_vicenti{
-    background:  #ffffff;
+    background:  #e7e0f3;
     border-radius: 6px; 
     padding: 15px; 
     cursor: pointer; 
@@ -61,11 +61,11 @@
     margin-left: 15%; 
     margin-right: 15%;
     margin-bottom: 10px;
-    box-shadow: 3px 3px #c5c5c5;
+    box-shadow: 3px 3px #aba2b9;
     position: static;
 }
 #sobre_juan{
-    background:  #ffffff;
+    background:  #e7e0f3;
     border-radius: 6px; 
     padding: 15px; 
     cursor: pointer; 
@@ -73,12 +73,12 @@
     margin-left: 15%; 
     margin-right: 15%;
     margin-bottom: 10px;
-    box-shadow: 3px 3px #c5c5c5;
+    box-shadow: 3px 3px #aba2b9;
     position: static;
 }
 
 #sobre_caio{
-    background:  #ffffff;
+    background:  #e7e0f3;
     border-radius: 6px; 
     padding: 15px; 
     cursor: pointer; 
@@ -86,7 +86,7 @@
     margin-left: 15%; 
     margin-right: 15%;
     margin-bottom: 0px;
-    box-shadow: 3px 3px #c5c5c5;
+    box-shadow: 3px 3px #aba2b9;
     position: static;
 }
 .painelLogin{

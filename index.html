@@ -1,140 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="footer, address, phone, icons" />
-    
-        <title>Heróis Marvel</title>
-        <meta name=”description” content="Encontre aqui todos os seus heróis favoritos, com suas imagens e nomes. Nós, da Marvel, entregamos a melhor experiência de navegação em suas mãos.">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="footer, address, phone, icons" />
+  
+      <title>Heróis Marvel</title>
+      <meta name=”description” content="Encontre aqui todos os seus heróis favoritos, com suas imagens e nomes. Nós, da Marvel, entregamos a melhor experiência de navegação em suas mãos.">
 
-        <link rel="stylesheet" href="css + img/style.css">
-        <link rel="stylesheet" href="css + img/header+footer.css">
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-        <link rel ="stylesheet" href = "node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-    
-        <style>
-            /* Make the image fully responsive */
-            .carousel-inner img {
-              width: 100%;
-              height: 100%;
-              background-color: #e62429;
-            }
-            </style>
-    </head>
+      <link rel="stylesheet" href="css + img/style.css">
+      <link rel="stylesheet" href="css + img/header+footer.css">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+      <link rel ="stylesheet" href = "node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  
+  </head>
 
-    <body>
+  <body>
+      
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Marvel_Studios_2016_logo.svg/1280px-Marvel_Studios_2016_logo.svg.png" alt="logo" class="img-thumbnail" id="img-logo">
         
-        <header>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Marvel_Studios_2016_logo.svg/1280px-Marvel_Studios_2016_logo.svg.png" alt="logo" class="img-thumbnail" id="img-logo">
-            
-            <p class="header-links">
-                <a href="#"><strong>Home</strong></a>
-                <strong>|</strong>
-                <a href="herois.html"><strong>Heróis</strong></a>
-                <strong>|</strong>
-                <a href="contato.htm"><strong>Contato</strong></a>
+        <p class="header-links">
+            <a href="#"><strong>Home</strong></a>
+            <strong>|</strong>
+            <a href="herois.html"><strong>Heróis</strong></a>
+            <strong>|</strong>
+            <a href="contato.htm"><strong>Contato</strong></a>
+        </p>
+        
+    </header>
+    
+    <div style="height: 3px; width: 100%; background-color: #e62429;"></div>
+    <!-- O conteúdo da nossa página iria aqui. -->
+    <!-- Carrossel -->
+    <div id="demo" class="carousel slide" data-ride="carousel" style="background-color: #151515;">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      
+      <!-- slideshow -->
+      <div class="carousel-inner" id="tamanho-carousel">
+        <div class="carousel-item active">
+          <img src="css + img/img/imagem1.jpg" alt="Los Angeles" width="1000" height="500">
+          <div class="carousel-caption" id="slide-1">
+            <h3>SEJA BEM-VINDO !</h3>
+            <p>Seja bem-vindo(a) ao Universo Marvel!<br>
+            Aqui você encontrará tudo o que precisa saber sobre <br>
+          o seu super herói favorito.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="css + img/img/imagem2.jpg" alt="Chicago" width="1000" height="500">
+          <div class="carousel-caption" id="slide-2">
+            <h3>O <br> MELHOR <br> SITE <br> DE <br> HERÓIS</h3>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="css + img/img/imagem3.jpg" alt="New York" width="1000" height="500">
+        </div>
+
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!-- Conteúdo abaixo do carousel -->
+
+    <footer class="footer-distribuido">
+
+        <div class="footer-left">
+            <h3>Heróis<span>Marvel</span></h3>
+            <i class="fa fa-cog fa-2x"></i>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">Sobre</a>
+                |
+                <a href="#">Contato</a>
             </p>
-            
-        </header>
-        
-        <div style="height: 3px; width: 100%; background-color: #e62429;"></div>
-        <!-- O conteúdo da nossa página iria aqui. -->
-        <section>
-            <div id="demo" class="carousel slide" data-ride="carousel">
 
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                  <li data-target="#demo" data-slide-to="0" class="active"></li>
-                  <li data-target="#demo" data-slide-to="1"></li>
-                  <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-                
-                <!-- The slideshow -->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLm187e7d_qPC8cXBpZ01sQL172fCW4B8Q6w&usqp=CAU" alt="Los Angeles" width="1100" height="500">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://wowslider.com/sliders/demo-81/data1/images/redkite50498.jpg" alt="Chicago" width="1100" height="500">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://wowslider.com/sliders/demo-81/data1/images/redkite50498.jpg" alt="New York" width="1100" height="500">
-                    imagem3
-                  </div>
-                </div>
-                
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-              </div>
-        </section>
+            <p class="footer-company-name">© 2020.HeroesMarvel</p>
+        </div>
 
-        <footer class="footer-distribuido">
-
-            <div class="footer-left">
-                <h3>Heróis<span>Marvel</span></h3>
-                <i class="fa fa-cog fa-2x"></i>
-
-                <p class="footer-links">
-                    <a href="#">Home</a>
-                    |
-                    <a href="#">Blog</a>
-                    |
-                    <a href="#">Sobre</a>
-                    |
-                    <a href="#">Contato</a>
-                </p>
-
-                <p class="footer-company-name">© 2020.HeroesMarvel</p>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                    <p>
+                        <span>R. Bento Branco de Andrade Filho, 379 </span>
+                        - Santo Amaro, São Paulo - SP, 04757-000
+                    </p>
             </div>
 
-            <div class="footer-center">
-                <div>
-                    <i class="fa fa-map-marker"></i>
-                        <p>
-                            <span>R. Bento Branco de Andrade Filho, 379 </span>
-                            - Santo Amaro, São Paulo - SP, 04757-000
-                        </p>
-                </div>
-
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+55 (11) 4002-8922</p>
-                </div>
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p><a href="emailrepresentativo@inexistente.com">equipedesuporte.marvelherois@email.com</a></p>
-                </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+55 (11) 4002-8922</p>
             </div>
-            <div class="footer-right">
-                <p class="footer-company-about">
-                    <span>Mais sobre nós</span>
-                    Gostou da nossa página?! Abaixo você pode acessar nossas redes socias e ficar por dentro de nossas novidades.
-                </p>
-                <div class="footer-icons">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
-                </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="emailrepresentativo@inexistente.com">equipedesuporte.marvelherois@email.com</a></p>
             </div>
-        </footer>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Mais sobre nós</span>
+                Gostou da nossa página?! Abaixo você pode acessar nossas redes socias e ficar por dentro de nossas novidades.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
 
-        <script src = "src/js/main.js"></script>
-        
-    </body>
+    <script src = "src/js/main.js"></script>
+      
+  </body>
 </html>

@@ -1,65 +1,54 @@
+
 /* Conteúdo da página */
 
 /* Carrosel */
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
+#tamanho-carousel{
+    width: 100%;
+    height: 700px;
 }
-    
-.slider li {
-    list-style: none;
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide-1{
+    width: 400px;
+    height: 200px;
+    background-color: #000000be;
     position: absolute;
+    margin-bottom: 270px;
+    margin-left: 270px;
 }
 
-.slider input {
-    display: none;
+#slide-1 h3{
+    font-family: OCR A Std, monospace; 
 }
 
-.slider label {
-    background-color: #000;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
+#slide-1 p{
+    margin: 20px;
+}
+
+#slide-2{
+    width: 170px;
+    height: 300px;
+    background-color: #000000be;
     position: absolute;
-    width: 10px;
-    z-index: 10;
+    margin-bottom: 170px;
+    margin-left: 385px;
 }
 
-.slider li:nth-child(1) label {
-    left: 10px;
+#slide-2 h3{
+    font-family: OCR A Std, monospace; 
+    font-size: 40px;
+    line-height: 45px;
 }
-
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
-
-
-* { margin: 0; padding: 0; }
 
 section{
     margin-top: 0px;
 	width: 100%;
-    height: auto; 
+    height: auto;
 }
 
 #div-sobrenos{
@@ -84,21 +73,16 @@ img{
     width: 301px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    
 }
 
 .personagem{
     width: 307px;
     margin: 20px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     border-radius: 16px;
     text-align: center;
     position: sticky;
-    background-color: #ffffff;
+    background-color: #e7e0f3;
     font-weight: bolder
-}
-
-#video{
-    
 }
