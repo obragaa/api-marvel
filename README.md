@@ -1,2 +1,2 @@
 # api-marvel
- Consumindo uma API da Marvel
+ Consumindo uma API da Marvel.
